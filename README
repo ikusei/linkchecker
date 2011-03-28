@@ -1,0 +1,14 @@
+LinkChecker
+===========
+
+Small class to check your website pages recursively.
+Provided as it with no warranty. 
+
+Usage
+-----
+
+checker = LinkChecker.new("http://www.sebaugereau.com")
+checker.max_urls = 50
+checker.grab
+checker.stats
+
